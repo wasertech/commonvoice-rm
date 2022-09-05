@@ -13,13 +13,13 @@ ARG model_language=rm
 ENV MODEL_LANGUAGE=$model_language
 
 # Training hyper-parameters
-ARG train_batch_size=16
+ARG train_batch_size=32
 ENV TRAIN_BATCH_SIZE=$train_batch_size
 
-ARG dev_batch_size=8
+ARG dev_batch_size=32
 ENV DEV_BATCH_SIZE=$dev_batch_size
 
-ARG test_batch_size=8
+ARG test_batch_size=32
 ENV TEST_BATCH_SIZE=$test_batch_size
 
 ARG n_hidden=2048
