@@ -13,13 +13,13 @@ ARG model_language=rm
 ENV MODEL_LANGUAGE=$model_language
 
 # Training hyper-parameters
-ARG train_batch_size=32
+ARG train_batch_size=16
 ENV TRAIN_BATCH_SIZE=$train_batch_size
 
-ARG dev_batch_size=16
+ARG dev_batch_size=8
 ENV DEV_BATCH_SIZE=$dev_batch_size
 
-ARG test_batch_size=16
+ARG test_batch_size=8
 ENV TEST_BATCH_SIZE=$test_batch_size
 
 ARG n_hidden=2048
@@ -34,8 +34,8 @@ ENV LEARNING_RATE=$learning_rate
 ARG dropout=0.3
 ENV DROPOUT=$dropout
 
-ARG lm_top_k=500000
-ENV LM_TOP_K=500000
+ARG lm_top_k=10000
+ENV LM_TOP_K=$lm_top_k
 
 ARG lm_alpha=0.0
 ENV LM_ALPHA=$lm_alpha

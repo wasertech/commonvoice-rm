@@ -23,7 +23,7 @@ You will find in this document all the instructions, documentation... for the Co
 
 > STT: Speech-To-Text
 
-The CommonVoice FR project uses 🐸-STT ​​([Coqui-STT](https://github.com/coqui-ai/STT)), the following implementation from the [DeepSpeech](https://github.com/mozilla) project from the Mozilla Foundation, to continue transforming sound waves into text based on the learning algorithm proposed by the community.
+The CommonVoice RM project uses 🐸-STT ​​([Coqui-STT](https://github.com/coqui-ai/STT)), the following implementation from the [DeepSpeech](https://github.com/mozilla) project from the Mozilla Foundation, to continue transforming sound waves into text based on the learning algorithm proposed by the community.
 
 # Canals
 
